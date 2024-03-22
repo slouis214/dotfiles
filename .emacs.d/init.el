@@ -15,3 +15,14 @@
 ;; init-loader
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/conf")
+
+;; opening
+(split-window-below)   ; 
+(other-window 1)       
+(shell)                ; 
+
+(split-window-right)   ; 
+(other-window 1)       ; 
+(dired default-directory) ; 
+
+(other-window 1)       ; 
